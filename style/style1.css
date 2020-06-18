@@ -589,7 +589,7 @@ html > body {
 
 
 
-/* Next breakpoint for nav 1200px 300px */
+/* Next breakpoint will be for nav 1200px 300px */
 
 html > body > div.smalls{
   width:25vw;
@@ -693,6 +693,65 @@ html > body > div#bottom.container-1 > div.item-3 > button{
     } /* end 500px */
 
 } /* end 800 px*/
+
+
+@media (max-width: 800px){
+
+/* center the projects*/
+html > body > div.container1.container-2{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+html > body > div.container1 > div{
+  margin:.4rem;
+  width: 20vw;
+  height: 60vh;
+  padding:.1rem;
+}
+html > body > div.container1 > div.item-2{
+
+ width:40vw;
+ height:40vh;
+}
+
+
+html > body > div#bottom.container1{
+  /*
+    display:flex;
+  align-items: space-evenly;
+  flex-direction:column
+  */
+  
+  width:98%;
+  height:140vh; 
+  }
+  
+  
+  html > body > div#bottom.container-1 > div.item-3{
+  
+    background-color: blue;
+    width:40vw;
+    height:40vh;
+    
+  }
+  html > body > div#bottom.container-1 > div.item-3 > button{
+   
+    
+      background-color: yellowgreen;
+      width:40vw;
+      height:40vh;
+    }
+
+
+
+
+
+}
+
 
 
 
