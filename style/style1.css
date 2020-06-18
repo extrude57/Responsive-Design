@@ -495,7 +495,7 @@ height:6vh; /* Is moving the h1 tag up and down*/
       }
       body > div.container.container-1 {
         width:95%;
-        height: 55vh;
+        height: 55vh; /*the red navbar heading*/
       }
       /* Top h1 name*/
       body > div.container > div#blank{
@@ -613,7 +613,7 @@ html > body > div.smalls.h > img{
   margin: .4vh 2vw;
 }
 
-/* just center the container*/
+/* center the projects*/
 html > body > div.container1.container-2{
   display:flex;
   flex-direction:row;
@@ -632,6 +632,13 @@ html > body > div.container1 > div.item-2{
 
  width:40vw;
  height:40vh;
+}
+
+
+html > body > div.container1.container-1{
+  background-color: blue;
+  width:40vw;
+  height:20vh;
 }
 
 
