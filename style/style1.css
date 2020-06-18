@@ -157,7 +157,10 @@ height:6vh; /* Is moving the h1 tag up and down*/
 @media screen and (max-width: 660px){
 
 
-
+html > body {
+  width:100%;
+  height: 600vh;
+}
   
   .container {
     border: .1rem solid black;
@@ -277,8 +280,8 @@ height:6vh; /* Is moving the h1 tag up and down*/
         
 
 
-}/* End @media phone 600*/
-    /* End breakpoints */
+}/* End @media phone 660*/
+  
 
     @media screen and (max-width: 616px){
       body > div.container.container-1 > div#blank > h1.hr{
@@ -323,7 +326,7 @@ height:6vh; /* Is moving the h1 tag up and down*/
     /* Makes space between name and button bar*/
    html> body > div.container.container-1 > div#blank > h1.hr{
       
-      margin:.5rem .5rem .5rem 2.5rem;
+      margin:5.5rem .5rem .5rem 2.5rem;
       font-size:2.5rem;
       
 
@@ -346,7 +349,7 @@ height:6vh; /* Is moving the h1 tag up and down*/
         /* Button bars area*/
         body > div.container.container-1 {
           width:100%;
-          height:20%;
+          height:30%;
         }
         /* h1s area*/
         body > div.container.container-1 > div#blank {
@@ -666,8 +669,7 @@ flex-direction:column
 */
 
 width:98%;
-height:140vh;
-
+height:140vh; 
 }
 
 
@@ -694,7 +696,7 @@ html > body > div#bottom.container-1 > div.item-3 > button{
 
 
 
-
+  /* End breakpoints */
 
 
 
