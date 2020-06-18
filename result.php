@@ -44,29 +44,7 @@ scrollamount="9" width="100%">Nicholas Lacapria - User Interface II </marquee>
           </button>
         </div>
       </div> <!-- End container 1-->
-       <div class="formcon">
-           <form method="post" action="result.php">
-               <h1>Your Name</h1>
-               <input type="text" name="name">
-               <h2>Email</h2>
-               <input type="text" name="email" value="Your-E-mail">
-                <h3>
-                    Subject
-                </h3>
-                <input type="text" name="subject">
-                <p>
-                    <h4>
-                        Gender:
-                    </h4>
-                    <input type="radio" name="gender">Male <input type="radio">Femail <input type="radio">Robot
-                </p>
-                <h5>Comment</h5>
-                <textarea name="msg" id="" cols="30" rows="10"></textarea>
-                <button type="submit">Submit</button>
-           
-           
-            </form>
-       </div>
+     
     
 
   

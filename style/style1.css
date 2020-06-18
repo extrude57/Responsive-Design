@@ -97,6 +97,9 @@ background-clip: border-box;
   width:70%;
   height: 120vh;
 }
+.formcon > form > h1,h2,h3,h4,h5{
+  font-size:2.4rem;
+}
 
 @media screen and (min-width: 1200px){
 
