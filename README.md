@@ -26,6 +26,7 @@ The major differences between these four layouts come down to wheither each pixl
 
 - implement media queries in a project.
 
+@media queries are within the project. 
 
 
 

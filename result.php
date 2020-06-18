@@ -98,7 +98,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 ?>
 
-<h2>You Submission</h2>
+<h2>Your Submission</h2>
 
 
 <?php
