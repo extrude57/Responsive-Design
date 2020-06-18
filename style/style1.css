@@ -658,26 +658,27 @@ html > body > div#bottom{
 
 }
 html > body > div#bottom.container1{
-display:flex;
+/*
+  display:flex;
 align-items: space-evenly;
 flex-direction:column
+*/
+
+width:98%;
+height:120vh;
 
 }
 
 
 html > body > div#bottom.container-1 > div.item-3{
-display:flex;
-justify-content: center;
 
-/*
   background-color: blue;
   width:40vw;
   height:20vh;
-  */
+  
 }
 html > body > div#bottom.container-1 > div.item-3 > button{
-  display:flex;
-  align-content: center;
+ 
   
     background-color: yellowgreen;
     width:40vw;
