@@ -616,26 +616,22 @@ html > body > div.smalls.h > img{
 /* just center the container*/
 html > body > div.container1.container-2{
   display:flex;
+  flex-direction:row;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 
 }
 html > body > div.container1 > div{
   margin:.4rem;
-  width: 50vw;
-  height: 120vh;
+  width: 20vw;
+  height: 60vh;
   padding:.1rem;
 }
 html > body > div.container1 > div.item-2{
 
- width:70%;
- height:100%;
-}
-html > body > div.container1 > div.item-2.r2{
-  display:flex;
-  align-items:center;
- width:70%;
- height:100%;
+ width:40vw;
+ height:40vh;
 }
 
 
