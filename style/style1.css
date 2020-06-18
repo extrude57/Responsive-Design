@@ -825,10 +825,12 @@ div.item-1 button{
 
 
       .item-3 {
-        font-size: 4rem;
-          text-align: center;
-        background-color: lavender;
-        position: absolute;
+      display:flex;
+        align-self: flex-end; 
+       /*
+        height: 50vh;
+        width:20vw;*/
+       
       }
       
      
