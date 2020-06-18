@@ -651,23 +651,31 @@ html > body > div.container1 > div.item-2{
  height:40vh;
 }
 
+html > body > div#bottom{
+  width:8vw;
+  height: 15vh;
+  background-color: blueviolet;
 
-html > body > div.container1.container-1{
+}
+html > body > div#bottom.container1{
 display:flex;
+align-items: space-evenly;
+flex-direction:column
 
 }
 
 
-html > body > div.container1.container-1 > div.item-3{
+html > body > div#bottom.container-1 > div.item-3{
 display:flex;
 justify-content: center;
+
 /*
   background-color: blue;
   width:40vw;
   height:20vh;
   */
 }
-html > body > div.container1.container-1 > div.item-3 > button{
+html > body > div#bottom.container-1 > div.item-3 > button{
   display:flex;
   align-content: center;
   
