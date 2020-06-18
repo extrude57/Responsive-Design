@@ -93,8 +93,9 @@ background-clip: border-box;
 
 /* Form Styles*/
 .formcon{
+  border:1px solid black;
   width:70%;
-  height: 90vh;
+  height: 120vh;
 }
 
 @media screen and (min-width: 1200px){
